@@ -1,5 +1,4 @@
 module.exports = {
-  addons: ["@chakra-ui/storybook-addon"],
   stories: [
     "../src/stories/**/*.stories.mdx",
     "../src/stories/**/*.stories.@(js|jsx|ts|tsx)",

@@ -1,12 +1,5 @@
-import Navbar from "./Navbar";
-
 const Layout = ({ children }) => {
-  return (
-    <div>
-      <Navbar />
-      {children}
-    </div>
-  );
+  return <div>{children}</div>;
 };
-
+// TODO: put mantine navbar in this layout
 export default Layout;
